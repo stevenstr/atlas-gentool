@@ -42,7 +42,7 @@ docker run --rm -v $(pwd):/go/src/${project} \
 - protoc-gen-gogotypes
 - protoc-gen-gostring
 - protoc-gen-swagger (**atlas-patch**)
-- protoc-gen-grpc-gateway
+- protoc-gen-grpc-gateway (updated)
 - protoc-gen-validate
 - protoc-gen-govalidators
 - protoc-gen-doc

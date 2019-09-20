@@ -11,6 +11,7 @@ ARG PGP_VERSION=master
 
 # Set up mandatory Go environmental variables.
 ENV CGO_ENABLED=0
+ENV TEST=1
 
 RUN apk update \
     && apk add --no-cache --purge git curl upx
